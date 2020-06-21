@@ -1,0 +1,165 @@
+
+body{
+    margin: 0;
+    font-family: 'serif' sans-serif;
+}
+
+
+/* 
+
+Header Section 
+
+*/
+.lineBreakTop{
+    visibility: hidden;
+    margin: 0;
+}
+
+#headerSection{
+    background-color: #1abc9c;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.containerHeader{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#headerTitle{
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+#headerNav{
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#headerNav li{
+    display: inline;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#headerNav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#headerNav a:hover{
+    color: #2f2f2f;
+}
+
+
+
+/*
+
+Content Section In Homepage
+
+*/
+.post{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.postAuthor img{
+    vertical-align: middle;
+}
+
+.postAuthor span{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.postDate{
+    color: gray;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.post h3{
+    color: #2f2f2f;
+}
+
+.post p{
+    line-height: 1.5;
+}
+
+#container{
+    background-color: #f2eded;
+}
+
+/* 
+Content Sectionn In About Page
+*/
+
+.about{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about p{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.about p a{
+    color: #149b80;
+    text-decoration: none;
+}
+
+
+
+/*
+
+Footer Section 
+
+*/
+.containerFooter{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footerSection{
+    background-color: #2f2f2f;
+    padding: 50px 0;
+}
+
+.column{
+    display: inline-block;
+    width: 40%;
+}
+
+.column h4{
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.column a{
+    color: #1abc9c;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.column a:hover{
+    color: #f6a623;
+}
+
